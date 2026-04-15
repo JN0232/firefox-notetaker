@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width: 450px; padding: 15px; background: #f5f5f5; color: #333; }
+h1 { color: #2c3e50; margin-bottom: 15px; font-size: 24px; }
+h2 { font-size: 14px; color: #555; margin-top: 15px; margin-bottom: 10px; }
+textarea { width: 100%; height: 100px; padding: 10px; border: 2px solid #bdc3c7; border-radius: 5px; font-family: inherit; font-size: 14px; resize: vertical; }
+textarea:focus { outline: none; border-color: #3498db; box-shadow: 0 0 5px rgba(52, 152, 219, 0.3); }
+.controls { display: flex; gap: 8px; margin: 10px 0 15px 0; flex-wrap: wrap; }
+.file-controls { background: #ecf0f1; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 13px; }
+.file-controls label { display: block; margin-top: 8px; margin-bottom: 5px; font-weight: 600; color: #2c3e50; }
+.file-controls label:first-child { margin-top: 0; }
+.file-controls input[type="file"] { width: 100%; padding: 5px; font-size: 12px; }
+button { flex: 1; min-width: 100px; padding: 10px 12px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.3s; }
+button:hover { background: #2980b9; transform: translateY(-2px); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+#export-btn { background: #27ae60; }
+#export-btn:hover { background: #229954; }
+#clear-btn { background: #e74c3c; }
+#clear-btn:hover { background: #c0392b; }
+ul { list-style: none; max-height: 400px; overflow-y: auto; }
+li { background: white; margin: 8px 0; padding: 12px; border-left: 4px solid #3498db; border-radius: 3px; font-size: 13px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; }
+li strong { color: #2c3e50; font-size: 12px; margin-bottom: 5px; }
+li .note-text { margin: 5px 0; word-wrap: break-word; white-space: pre-wrap; }
+li img { max-width: 150px; margin: 8px 0; border-radius: 3px; cursor: pointer; }
+li .note-controls { display: flex; gap: 5px; margin-top: 8px; }
+li button { flex: 0; min-width: auto; padding: 5px 10px; background: #e74c3c; font-size: 11px; }
+li button:hover { background: #c0392b; }
+li .download-btn { background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; cursor: pointer; font-size: 11px; }
+li .download-btn:hover { background: #229954; }

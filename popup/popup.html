@@ -8,26 +8,20 @@
 </head>
 <body>
   <h1>📝 Poznámky</h1>
-  
   <textarea id="note-input" placeholder="Napište svou poznámku..."></textarea>
-  
   <div class="controls">
     <button id="save-btn">💾 Uložit</button>
     <button id="export-btn">⬇️ Exportovat JSON</button>
     <button id="clear-btn">🗑️ Vymazat vše</button>
   </div>
-  
   <div class="file-controls">
     <label for="image-input">🖼️ Přidat obrázek:</label>
     <input type="file" id="image-input" accept="image/*">
-    
     <label for="file-input">📎 Přidat soubor:</label>
     <input type="file" id="file-input">
   </div>
-  
   <h2>Vaše poznámky:</h2>
   <ul id="notes-list"></ul>
-  
   <script src="popup.js"></script>
 </body>
 </html>
