@@ -1,0 +1,1 @@
+{\n  "manifest_version": 3,\n  "name": "Moje poznámky",\n  "version": "1.0",\n  "description": "Poznámky s ukládáním do JSON",\n  "permissions": ["storage"],\n  "action": {\n    "default_popup": "popup/popup.html",\n    "default_icon": {\n      "16": "icons/icon16.png",\n      "48": "icons/icon48.png",\n      "128": "icons/icon128.png"\n    }\n  }\n}
